@@ -1,11 +1,10 @@
 
-body{
+body {
   background: #191765;
   margin-left: 24px;
   margin-right: 24px;
   color: #fff;
 }
-
 
 .header {
   display: flex;
@@ -14,8 +13,6 @@ body{
   color: white;
   margin-top: 44px;
 }
-
-
 
 .header h3 {
   flex:1;
@@ -30,12 +27,9 @@ body{
 
 }
 
-
-.name h3{
+.name h3 {
   font-size: 18px;
 }
-
-
 
 .intro {
   display: flex;
@@ -43,7 +37,7 @@ body{
   flex-wrap: wrap;
 }
 
-.intro h1{
+.intro h1 {
   font-family: Roboto;
   font-size: 48px;
   font-style: normal;
@@ -107,4 +101,6 @@ li {
  justify-content: space-between;
 }
 
-ul{list-style-type: none;}
+ul {
+    list-style-type: none;
+}
