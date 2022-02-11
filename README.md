@@ -1,7 +1,7 @@
-# Portfolio-mobile-version
+# Portfolio-setup-and-mobile-version-skeleton
 
-# description
-For the second milestone in building my portfolio website, I will create the mobile website section where I will list my portfolio projects.
+# Description the project.
+In this project, I will set up a Portfolio setup and mobile version skeleton.
 
 
 # Built With
@@ -33,3 +33,5 @@ Acknowledgments
    
 
 📝 License
+
+
