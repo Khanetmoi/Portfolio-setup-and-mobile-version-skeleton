@@ -6,7 +6,7 @@ body {
   color: #fff;
 }
 
-.header {
+header {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -14,7 +14,7 @@ body {
   margin-top: 44px;
 }
 
-.header h3 {
+header h3 {
   font-family: Roboto, Arial, sans-serif;
   font-size: 15px;
   font-style: normal;
@@ -91,9 +91,17 @@ li {
 .container {
   display: flex;
   justify-content: center;
-  justify-content: space-between;
 }
 
 ul {
   list-style-type: none;
+}
+
+.contact-list li {
+  display: inline;
+}
+
+.icons {
+  color: #fff;
+  font-size: 20px;
 }
