@@ -1,9 +1,18 @@
-
 body {
   background: #191765;
   margin-left: 24px;
   margin-right: 24px;
   color: #fff;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
 }
 
 header {
@@ -74,7 +83,7 @@ li {
   font-weight: 400;
   line-height: 24px;
   text-align: left;
-  padding: 9.5px 31px 9.5px 0;
+  padding: 9.5px 40px 9.5px 0;
 }
 
 .title {
@@ -93,10 +102,6 @@ li {
   justify-content: center;
 }
 
-ul {
-  list-style-type: none;
-}
-
 .contact-list li {
   display: inline;
 }
@@ -104,4 +109,90 @@ ul {
 .icons {
   color: #fff;
   font-size: 20px;
+}
+
+.work_section {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.work_link1 {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  line-height: 32px;
+  text-align: center;
+  color: #a2a3ae;
+}
+
+.work_link2 {
+  color: #a2a3ae;
+  font-size: 15px;
+  padding-right: 12px;
+  line-height: 32px;
+}
+
+.recent_work {
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  color: #a2a3ae;
+}
+
+.preview {
+  position: static;
+  width: 327px;
+  height: 236px;
+  background-color: #fff;
+  margin-top: 48px;
+}
+
+.description_title {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44px;
+  text-align: left;
+}
+
+.description {
+  font-family: Inter, Arial, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: #dcdce8;
+}
+
+.recipient ul {
+  display: flex;
+  justify-content: flex-start;
+}
+
+button {
+  outline: none;
+  color: #fff;
+  border: none;
+  background-color: #7d73fc;
+  margin: 40px 0 0 0;
+  padding: 10px 7px 10px 7px;
+}
+
+.recipient li h3 {
+  font-family: Inter, Arial, sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  margin: -10px;
+}
+
+.verticale {
+  border-right: 1px solid grey;
+  height: 40px;
+  margin: -15px;
+  position: absolute;
 }
