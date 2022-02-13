@@ -32,6 +32,18 @@ header h3 {
   text-align: center;
 }
 
+footer h3 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+}
+
 .name h3 {
   font-size: 18px;
 }
@@ -234,16 +246,4 @@ button {
   display: flex;
   justify-content: center;
   margin-top: 40px;
-}
-
-footer h3 {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
-  font-family: Roboto, Arial, sans-serif;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 28px;
-  text-align: center;
 }
