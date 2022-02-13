@@ -196,3 +196,54 @@ button {
   margin: -15px;
   position: absolute;
 }
+
+.contact {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 71px;
+}
+
+.contact h2 {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44px;
+  text-align: center;
+  color: #9390ff;
+}
+
+.contact p {
+  font-family: Inter, Arial, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #f5f5ff;
+}
+
+.text {
+  width: 100%;
+  padding: 10px 0;
+  margin: 10px 0;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+footer h3 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+}
