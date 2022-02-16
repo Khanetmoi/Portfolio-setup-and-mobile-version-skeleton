@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 body {
   background: #191765;
   margin-left: 24px;
@@ -30,6 +32,16 @@ header h3 {
   font-weight: 500;
   line-height: 20px;
   text-align: center;
+}
+
+footer h3 {
+  font-family: Roboto, sans-serif, arial;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+  margin-top: -5px;
 }
 
 .name h3 {
@@ -100,6 +112,10 @@ li {
 .container {
   display: flex;
   justify-content: center;
+}
+
+.contact-list {
+  margin-left: 10px;
 }
 
 .contact-list li {
@@ -177,8 +193,18 @@ button {
   color: #fff;
   border: none;
   background-color: #7d73fc;
-  margin: 40px 0 0 0;
+  margin-top: 40px;
   padding: 10px 7px 10px 7px;
+}
+
+.form h3 {
+  color: #9390ff;
+  font-family: Roboto, sans-serif, arial;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  margin-bottom: -5px;
 }
 
 .recipient li h3 {
@@ -195,4 +221,73 @@ button {
   height: 40px;
   margin: -15px;
   position: absolute;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.form p {
+  font-family: Inter, sans-serif, arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #f5f5ff;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+form input {
+  margin-bottom: 24px;
+  padding: 16px 15px 16px 15px;
+  font-family: Inter, arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  width: 100%;
+}
+
+form textarea {
+  margin-bottom: 40px;
+  font-family: Inter, sans-serif, arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  width: 100%;
+  padding: 12px;
+}
+
+form button {
+  width: 89px;
+  height: 48px;
+  margin-top: -10px;
+}
+
+.extended-hr {
+  margin: 71px -20px 0 -20px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.f-contact-list {
+  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
 }
