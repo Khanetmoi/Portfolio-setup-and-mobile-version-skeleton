@@ -228,7 +228,7 @@ button {
 .f-contact {
   display: flex;
   flex-direction: column;
-  justify-content:center;
+  justify-content: center;
   margin-top: 100px;
 }
 
@@ -289,7 +289,7 @@ form button {
 }
 
 .f-email {
-  font-family: Roboto,sans-serif, arial;
+  font-family: Roboto, sans-serif, arial;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
