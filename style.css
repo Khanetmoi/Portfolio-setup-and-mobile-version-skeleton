@@ -35,15 +35,13 @@ header h3 {
 }
 
 footer h3 {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
-  font-family: Roboto, Arial, sans-serif;
+  font-family: Roboto,sans-serif, arial;
   font-size: 20px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 28px;
   text-align: center;
+  margin-top: -5px;
 }
 
 .name h3 {
@@ -119,6 +117,7 @@ li {
 .contact-list {
   margin-left: 10px;
 }
+
 .contact-list li {
   display: inline;
 }
@@ -198,6 +197,16 @@ button {
   padding: 10px 7px 10px 7px;
 }
 
+.form h3 {
+  color: #9390ff;
+  font-family: Roboto, sans-serif, arial;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  margin-bottom: -5px;
+}
+
 .recipient li h3 {
   font-family: Inter, Arial, sans-serif;
   font-size: 15px;
@@ -214,34 +223,21 @@ button {
   position: absolute;
 }
 
-
 .form {
   display: flex;
   flex-wrap: wrap;
- /* flex-direction: column;*/
-  justify-content:center;
+  justify-content: center;
   margin-top: 100px;
-  
-}
-
-.form h3 {
-  color: #9390ff;
-  font-family: Roboto, sans-serif, arial;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 32px;
-  line-height: 44px;
-  margin-bottom: -5px;
 }
 
 .form p {
-  font-family: Inter;
+  font-family: Inter, sans-serif, arial;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
   text-align: center;
-  color: #F5F5FF;
+  color: #f5f5ff;
 }
 
 form {
@@ -264,13 +260,13 @@ form input {
 
 form textarea {
   margin-bottom: 40px;
-  font-family: Inter;
+  font-family: Inter, sans-serif, arial;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
   line-height: 24px;
   width: 100%;
-  padding: 12px; 
+  padding: 12px;
 }
 
 form button {
@@ -294,14 +290,4 @@ footer {
   display: flex;
   justify-content: center;
   align-content: space-between;
-}
-
-footer h3 {
-  font-family: Roboto,sans-serif, arial;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 28px;
-  text-align: center;
-  margin-top: -5px;
 }
