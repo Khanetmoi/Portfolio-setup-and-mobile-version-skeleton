@@ -119,7 +119,6 @@ li {
 .contact-list {
   margin-left: 10px;
 }
-
 .contact-list li {
   display: inline;
 }
@@ -199,16 +198,6 @@ button {
   padding: 10px 7px 10px 7px;
 }
 
-.f-contact h3 {
-  color: #9390ff;
-  font-family: Roboto, sans-serif, arial;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 32px;
-  line-height: 44px;
-  margin-bottom: -5px;
-}
-
 .recipient li h3 {
   font-family: Inter, Arial, sans-serif;
   font-size: 15px;
@@ -225,21 +214,34 @@ button {
   position: absolute;
 }
 
-.f-contact {
+
+.form {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-wrap: wrap;
+ /* flex-direction: column;*/
+  justify-content:center;
   margin-top: 100px;
+  
 }
 
-.f-contact p {
-  font-family: Inter, Arial, sans-serif;
+.form h3 {
+  color: #9390ff;
+  font-family: Roboto, sans-serif, arial;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  margin-bottom: -5px;
+}
+
+.form p {
+  font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
   text-align: center;
-  color: #f5f5ff;
+  color: #F5F5FF;
 }
 
 form {
@@ -262,13 +264,13 @@ form input {
 
 form textarea {
   margin-bottom: 40px;
-  font-family: Inter, Arial, sans-serif;
+  font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
   line-height: 24px;
   width: 100%;
-  padding: 12px;
+  padding: 12px; 
 }
 
 form button {
@@ -277,22 +279,29 @@ form button {
   margin-top: -10px;
 }
 
-.f-contact hr {
-  margin: 71px -10px 0 -10px;
+.extended-hr {
+  margin: 71px -20px 0 -20px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .f-contact-list {
-  margin-left: 10px;
+  margin-left: 50px;
   display: flex;
   justify-content: center;
   align-content: space-between;
 }
 
-.f-email {
-  font-family: Roboto, sans-serif, arial;
+footer h3 {
+  font-family: Roboto,sans-serif, arial;
   font-size: 20px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 28px;
   text-align: center;
+  margin-top: -5px;
 }
