@@ -311,18 +311,22 @@ footer {
     margin-right: 10%;
     color: #fff;
   }
+
   header {
     margin-top: 0;
   }
+
   .hcontent {
     display: flex;
     justify-content: center;
   }
+
   .desktop {
     display: inline-block;
     margin-right: 10px;
     color: #fff;
   }
+
   .Icons {
     display: none;
   }
@@ -352,11 +356,11 @@ footer {
     font-size: 15px;
     font-weight: bold;
   }
-  
+
   .mywork1 {
     display: block;
   }
-  
+
   .social-media-myWork {
     display: flex;
     justify-content: space-between;
@@ -391,10 +395,11 @@ footer {
     display: flex;
     flex-direction: row-reverse;
   }
-  
+
   .contact-title-phone-v {
     display: none;
   }
+
   .contact-title-desktop-v {
     display: inline-block;
     font-family: Roboto, arial, sans-serif;
@@ -420,7 +425,7 @@ footer {
   .field1 {
     margin-right: 5px;
   }
-  
+
   .field2 {
     display: inline;
     margin-left: 5px;
@@ -433,9 +438,9 @@ footer {
   }
 
   footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   footer h3 {
