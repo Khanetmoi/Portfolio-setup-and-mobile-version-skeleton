@@ -343,18 +343,20 @@ footer {
   }
 
   .abilities {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .title {
     font-size: 15px;
     font-weight: bold;
   }
+  
   .mywork1 {
     display: block;
   }
+  
   .social-media-myWork {
     display: flex;
     justify-content: space-between;
@@ -373,7 +375,7 @@ footer {
 
   .project {
     display: flex;
-    align-items:flex-end;
+    align-items: flex-end;
   }
 
   .preview {
@@ -382,7 +384,7 @@ footer {
   }
 
   .comment-section {
-    margin:50px 40px 0 40px;
+    margin: 50px 40px 0 40px;
   }
 
   .second {
@@ -401,7 +403,6 @@ footer {
     font-weight: 900;
     line-height: 24px;
     text-align: center;
-
   }
 
   .form p {
