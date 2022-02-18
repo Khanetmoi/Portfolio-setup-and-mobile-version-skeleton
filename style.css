@@ -85,7 +85,6 @@ footer h3 {
   padding-right: 190px;
 }
 
-
 .intro h2 {
   font-family: Roboto, Arial, sans-serif;
   font-size: 32px;
@@ -308,6 +307,12 @@ button {
   padding: 10px 7px 10px 7px;
 }
 
+form button {
+  width: 160px;
+  height: 48px;
+  margin: 89px 0;
+}
+
 button:hover {
   background-color: #b9b7d1;
   color: #100a61;
@@ -393,12 +398,6 @@ form textarea {
   line-height: 24px;
   width: 100%;
   padding: 12px;
-}
-
-form button {
-  width: 89px;
-  height: 48px;
-  margin-top: -10px;
 }
 
 .extended-hr {
@@ -667,13 +666,7 @@ footer {
     display: inline;
     margin-left: 5px;
   }
-
-  form button {
-    width: 160px;
-    height: 48px;
-    margin: 89px 0;
-  }
-
+  
   footer {
     display: flex;
     justify-content: center;
