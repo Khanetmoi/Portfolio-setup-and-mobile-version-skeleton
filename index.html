@@ -1,686 +1,330 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap');
-@import url('https://rsms.me/inter/inter.css');
-
-body {
-  background: #191765;
-  color: #fff;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-a {
-  text-decoration: none;
-}
-
-.desktop {
-  display: none;
-}
-
-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  color: white;
-  margin-top: 44px;
-  margin-left: 24px;
-  margin-right: 24px;
-}
-
-header h3 {
-  font-family: roboto, Arial, sans-serif;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 20px;
-  text-align: center;
-}
-
-footer h3 {
-  font-family: Roboto, sans-serif, arial;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 18px;
-  text-align: center;
-}
-
-.name h3 {
-  font-size: 18px;
-}
-
-.intro {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.intro-title {
-  font-family: Roboto, sans-serif, arial;
-  font-size: 48px;
-  font-style: normal;
-  font-weight: bold;
-  line-height: 72px;
-  letter-spacing: 0.3700000047683716px;
-  text-align: center;
-  color: #7d73fc;
-  position: relative;
-  padding-left: 190px;
-  padding-right: 190px;
-}
-
-.intro h1::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  width: 0px;
-  height: 100px;
-  border-radius: 50%;
-  background-color: #edecff;
-  box-shadow: 0 0 15px 0 #edecff;
-  filter: blur(10px);
-  padding-right: 150px;
-}
-
-.intro h2 {
-  font-family: Roboto, Arial, sans-serif;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 44px;
-  text-align: center;
-  color: #edecff;
-}
-
-.intro p {
-  font-family: Roboto, Arial, sans-serif;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 501;
-  line-height: 28px;
-  text-align: center;
-  color: #c8c8d4;
-  margin-left: 24px;
-  margin-right: 24px;
-}
-
-.firsthr {
-  margin-left: 24px;
-  margin-right: 24px;
-}
-
-.abilities {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-left: 70px;
-  margin-right: 24px;
-}
-
-.languages ul {
-  padding-bottom: 20px;
-}
-
-.Framworks::before {
-  content: '';
-  position: absolute;
-  width: 68px;
-  height: 68px;
-  right: 0;
-  top: 495px;
-  filter: blur(20px);
-  border-radius: 50%;
-  background-color: #edecff;
-  box-shadow: 0 0 15px 0 #edecff;
-}
-
-li {
-  font-family: Roboto, Arial, sans-serif;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 24px;
-  text-align: left;
-  padding: 9.5px 40px 9.5px 0;
-}
-
-.title {
-  font-family: Roboto, Arial, sans-serif;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  text-align: left;
-  color: #9490ff;
-}
-
-.container {
-  display: flex;
-  justify-content: center;
-}
-
-.contact-list {
-  margin-left: 10px;
-}
-
-.contact-list li {
-  display: inline;
-}
-
-.icons {
-  color: #fff;
-  font-size: 20px;
-}
-
-.projects {
-  margin-left: 24px;
-  margin-right: 24px;
-}
-
-.first::after {
-  content: '';
-  position: absolute;
-  width: 0.61px;
-  height: 472.57px;
-  left: -112.04px;
-  top: 1624.71px;
-  background: #edecff;
-  filter: blur(50px);
-  transform: rotate(-36.38deg);
-  border-radius: 50%;
-  background-color: #edecff;
-  box-shadow: 0 0 15px 0 #edecff;
-}
-
-.second::after {
-  content: '';
-  position: absolute;
-  width: 70.28px;
-  height: 261.6px;
-  right: 0;
-  top: 2437.23px;
-  background: #edecff;
-  filter: blur(30px);
-  transform: matrix(-0.84, -0.54, -0.54, 0.84, 0, 0);
-  background-color: #edecff;
-  box-shadow: 0 0 15px 0 #edecff;
-}
-
-.third::before {
-  content: '';
-  position: absolute;
-  width: 308px;
-  height: 155px;
-  left: -93px;
-  top: 3274px;
-  background: rgba(237, 236, 255, 0.3);
-  filter: blur(50px);
-  box-shadow: 0 0 15px 0 #edecff;
-}
-
-.f4::before {
-  content: '';
-  position: absolute;
-  width: 101.29px;
-  height: 377.04px;
-  left: 258.22px;
-  background: #edecff;
-  filter: blur(20px);
-  transform: matrix(-0.26, 0.97, 0.97, 0.26, 0, 0);
-  box-shadow: 0 0 -15px 0 #edecff;
-  padding-right: 10px;
-}
-
-.work_section {
-  display: flex;
-  justify-content: center;
-  align-items: baseline;
-}
-
-.mywork1 {
-  display: none;
-}
-
-.work_link1 {
-  font-family: Roboto, Arial, sans-serif;
-  font-size: 15px;
-  font-style: normal;
-  line-height: 32px;
-  text-align: center;
-  color: #a2a3ae;
-}
-
-.work_link2 {
-  color: #a2a3ae;
-  font-size: 15px;
-  padding-right: 12px;
-  line-height: 32px;
-}
-
-.recent_work {
-  font-family: Roboto, Arial, sans-serif;
-  font-weight: 1000;
-  font-size: 40px;
-  color: #9490ff;
-}
-
-.preview {
-  width: 100%;
-  height: 236px;
-  background-color: #fff;
-  margin-top: 48px;
-}
-
-.description_title {
-  font-family: Roboto, Arial, sans-serif;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: 44px;
-  text-align: left;
-}
-
-.description {
-  font-family: Inter, Arial, sans-serif;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 28px;
-  text-align: left;
-  color: #dcdce8;
-}
-
-.recipient ul {
-  display: flex;
-  justify-content: flex-start;
-}
-
-button {
-  outline: none;
-  color: #fff;
-  border: none;
-  background-color: #7d73fc;
-  margin-top: 40px;
-  padding: 10px 7px 10px 7px;
-}
-
-.form h3 {
-  color: #9390ff;
-  font-family: Roboto, sans-serif, arial;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 32px;
-  line-height: 44px;
-  margin-bottom: -5px;
-}
-
-.recipient li h3 {
-  font-family: Inter, Arial, sans-serif;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 20px;
-  margin: -10px;
-}
-
-.verticale {
-  border-right: 1px solid grey;
-  height: 40px;
-  margin: -15px;
-  position: absolute;
-}
-
-.form {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 100px;
-  margin-left: 24px;
-  margin-right: 24px;
-}
-
-.form p {
-  font-family: Inter, sans-serif, arial;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-  text-align: center;
-  color: #f5f5ff;
-}
-
-form {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: center;
-}
-
-.contact-title-desktop-v {
-  display: none;
-}
-
-form input {
-  margin-bottom: 24px;
-  padding: 16px 15px 16px 15px;
-  font-family: Inter, arial, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 15px;
-  line-height: 24px;
-  width: 100%;
-}
-
-.field2 {
-  display: none;
-}
-
-form textarea {
-  margin-bottom: 40px;
-  font-family: Inter, sans-serif, arial;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 15px;
-  line-height: 24px;
-  width: 100%;
-  padding: 12px;
-}
-
-form button {
-  width: 89px;
-  height: 48px;
-  margin-top: -10px;
-}
-
-.extended-hr {
-  margin: 71px -20px 0 -20px;
-}
-
-footer {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-left: 24px;
-  margin-right: 24px;
-}
-
-.f-contact-list {
-  margin-left: 50px;
-  display: flex;
-  justify-content: center;
-  align-content: space-between;
-}
-
-@media all and (min-width: 992px) {
-  body {
-    background: #191765;
-    color: #fff;
-  }
-
-  header {
-    margin-top: 0;
-    margin-left: 142px;
-    margin-right: 142px;
-  }
-
-  .hcontent {
-    display: flex;
-    justify-content: center;
-  }
-
-  .desktop {
-    display: inline-block;
-    margin-right: 10px;
-    color: #fff;
-  }
-
-  .Icons {
-    display: none;
-  }
-
-  .intro {
-    display: grid;
-    gap: 10px;
-  }
-
-  .intro h1 {
-    position: static;
-    font-family: Roboto, Arial, sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 90px;
-    color: #9391ff;
-  }
-
-  .intro h1::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    width: 0;
-    height: 184px;
-    border-radius: 50%;
-    background-color: #edecff;
-    box-shadow: 0 0 95px 0 #edecff;
-    filter: blur(10px);
-    margin-left: 50px;
-  }
-
-  .intro h2 {
-    font-family: Roboto, Arial, sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 40px;
-    line-height: 47px;
-    text-align: center;
-    color: #dfe1e6;
-    margin-top: -50px;
-  }
-
-  .intro p {
-    margin-right: 30%;
-    margin-left: 30%;
-    color: #b3bac5;
-  }
-
-  .firsthr {
-    margin-left: 30%;
-    margin-right: 30%;
-  }
-
-  .intro p::before {
-    content: '';
-    position: absolute;
-    right: 0;
-    width: 300px;
-    height: 300px;
-    border-radius: 100%;
-    background-color: #fff;
-    box-shadow: 0 0 95px 0 #d1cfff;
-    filter: blur(10px);
-  }
-
-  .abilities {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 25px;
-    margin-left: 30%;
-    margin-right: 20%;
-  }
-
-  .Framworks::before {
-    display: none;
-  }
-
-  .title {
-    font-family: Roboto, Arial, sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    color: #9390ff;
-  }
-
-  .mywork1 {
-    display: block;
-  }
-
-  .social-media-myWork {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 106px 142px 237px 142px;
-  }
-
-  .projects {
-    margin-left: 142px;
-    margin-right: 142px;
-  }
-
-  .recent_work {
-    font-family: Roboto, arial, sans-serif;
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 114px;
-    text-align: left;
-  }
-
-  .project {
-    display: flex;
-    align-items: flex-end;
-  }
-
-  .preview {
-    width: 800%;
-    height: 400px;
-  }
-
-  .projects hr::after {
-    content: '';
-    position: absolute;
-    width: 57.53px;
-    height: 700.92px;
-    left: -132px;
-    top: 1479.12px;
-    background: #edecff;
-    filter: blur(50px);
-    transform: rotate(-36.38deg);
-  }
-
-  .comment-section {
-    margin: 50px 40px 0 40px;
-  }
-
-  .first::after {
-    display: none;
-  }
-
-  .second {
-    display: flex;
-    flex-direction: row-reverse;
-  }
-
-  .second::after {
-    content: '';
-    position: absolute;
-    width: 108px;
-    height: 402px;
-    right: 0;
-    top: 2257.74px;
-    background: #edecff;
-    filter: blur(40px);
-    transform: matrix(-0.84, -0.54, -0.54, 0.84, 0, 0);
-  }
-
-  .second .comment-section {
-    margin-left: 0;
-  }
-
-  .third2::before {
-    display: none;
-  }
-
-  .third::after {
-    content: '';
-    position: absolute;
-    width: 150px;
-    height: 155px;
-    left: -41px;
-    background: #edecff;
-    filter: blur(50px);
-  }
-
-  .f4::before {
-    display: none;
-  }
-
-  .fourth {
-    display: flex;
-    flex-direction: row-reverse;
-  }
-
-  .fourth::before {
-    content: '';
-    position: absolute;
-    width: 120.19px;
-    height: 116.38px;
-    right: 0;
-    background: #edecff;
-    filter: blur(40px);
-    transform: matrix(-0.26, 0.97, 0.97, 0.26, 0, 0);
-  }
-
-  .contact-title-phone-v {
-    display: none;
-  }
-
-  .contact-title-desktop-v {
-    display: inline-block;
-    font-family: Roboto, arial, sans-serif;
-    font-size: 400px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 24px;
-    text-align: center;
-  }
-
-  .form p {
-    margin: 0 20% 84px 20%;
-  }
-
-  form {
-    width: 680px;
-  }
-
-  .name-field {
-    width: 44%;
-  }
-
-  .field1 {
-    margin-right: 5px;
-  }
-
-  .field2 {
-    display: inline;
-    margin-left: 5px;
-  }
-
-  form button {
-    width: 160px;
-    height: 48px;
-    margin: 89px 0;
-  }
-
-  footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-  }
-
-  footer h3 {
-    margin-bottom: -5px;
-  }
-}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bf723a76a7.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="header_elements name">
+            <h3>ikpro</h3>
+        </div>
+
+        <div class="hcontent">
+            <a href=# class="header_elements desktop hportfolio">Portfolio</a>
+            <a href=# class="header_elements desktop habout">About</a>
+            <a href=# class="header_elements desktop hcontact">Contact</a>
+            <a href=# class="header_elements desktop hletters"><i class="fa-solid fa-envelope"></i></a>
+            <div class="header_elements Icons"><a href=#><i class="fa-solid fa-bars"></i></a></div>
+        </div>
+    </header>
+
+    <section class="intro">
+        <h1 class="intro-title">Inayat</h1>
+        <h2>Software Developer</h2>
+
+        <p>
+            I can help you build a product , feature or website
+            Look through some of my work and experience! If
+            you like what you see and have a project you need
+            coded, don’t hestiate to contact me.
+        </p>
+    </section>
+    <hr class="firsthr frt">
+    <section class="abilities">
+        <div class="languages">
+            <ul>
+                <li class="title">Language</li>
+                <li>JavaScript</li>
+                <li>Ruby</li>
+                <li>Html</li>
+                <li>Css</li>
+                <li>C++</li>
+                <li>Python</li>
+                <li>flutter</li>
+                <li>java</li>
+                <li>C#</li>
+            </ul>
+        </div>
+        <div class="Framworks">
+            <ul>
+                <li class="title">Frameworks</li>
+                <li>Bootstrap</li>
+                <li>Ruby on Rails</li>
+            </ul>
+
+        </div>
+        <div class="Skills">
+            <ul>
+                <li class="title">Skills</li>
+                <li>Codepen</li>
+                <li>Github</li>
+                <li>Gitlab</li>
+                <li>Terminal</li>
+            </ul>
+
+        </div>
+
+    </section>
+
+    <hr class="firsthr">
+
+    <section class="social-media-myWork">
+        <a href=# class="mywork1">
+            <div class="work_section">
+                <div class="work_link2"><i class="fa-solid fa-arrow-down"></i></div>
+                <div class="work_link1">
+                    <h3>Work</h3>
+                </div>
+            </div>
+        </a>
+        <section class="container">
+            <ul class="contact-list">
+                <li><a href=# class="icons"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href=# class="icons"><i class="fa-brands fa-github-square"></i></a></li>
+                <li><a href=# class="icons"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href=# class="icons"><i class="fa-brands fa-angellist"></i></a></li>
+            </ul>
+        </section>
+        <a href=#>
+            <div class="work_section">
+                <div class="work_link2"><i class="fa-solid fa-arrow-down"></i></div>
+                <div class="work_link1">
+                    <h3>Work</h3>
+                </div>
+            </div>
+        </a>
+    </section>
+
+    <section class="projects">
+        <h2 class="recent_work">My recent work</h2>
+        <hr>
+        <div class="project first">
+            <div class="preview"></div>
+            <div class="comment-section">
+                <h2 class="description_title">Multi-Post Stories</h2>
+                <p class="description">A daily selection of privately personalized reads; no accounts or sign-ups
+                    required.
+                    has been the
+                    industry's standard
+                    dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
+                </p>
+                <div class="recipient">
+                    <ul>
+                        <li>
+                            <div>
+                                <h3>css</h3>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="verticale"></div>
+                        </li>
+                        <li>
+                            <div>
+                                <h3>html</h3>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="verticale"></div>
+                        </li>
+                        <li>
+                            <div>
+                                <h3>bootstrap</h3>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="verticale"></div>
+                        </li>
+                        <li>
+                            <h3>Ruby</h3>
+                        </li>
+                    </ul>
+                </div>
+
+                <button type="button">See Project</button>
+
+            </div>
+
+        </div>
+        <div class="project second">
+            <div class="preview"></div>
+            <div class="comment-section">
+                <h2 class="description_title">Multi-Post Stories</h2>
+                <p class="description">A daily selection of privately personalized reads; no accounts or sign-ups
+                    required.
+                    has been the
+                    industry's standard
+                    dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
+                </p>
+                <div class="recipient">
+                    <ul>
+                        <li>
+                            <div>
+                                <h3>css</h3>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="verticale"></div>
+                        </li>
+                        <li>
+                            <div>
+                                <h3>html</h3>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="verticale"></div>
+                        </li>
+                        <li>
+                            <div>
+                                <h3>bootstrap</h3>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="verticale"></div>
+                        </li>
+                        <li>
+                            <h3>Ruby</h3>
+                        </li>
+                    </ul>
+                </div>
+
+                <button type="button">See Project </button>
+            </div>
+
+        </div>
+        <div class="project third third2">
+            <div class="preview"></div>
+            <div class="comment-section">
+                <h2 class="description_title">Multi-Post Stories</h2>
+                <p class="description">A daily selection of privately personalized reads; no accounts or sign-ups
+                    required.
+                    has been the
+                    industry's standard
+                    dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
+                </p>
+                <div class="recipient">
+                    <ul>
+                        <li>
+                            <div>
+                                <h3>css</h3>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="verticale"></div>
+                        </li>
+                        <li>
+                            <div>
+                                <h3>html</h3>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="verticale"></div>
+                        </li>
+                        <li>
+                            <div>
+                                <h3>bootstrap</h3>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="verticale"></div>
+                        </li>
+                        <li>
+                            <h3>Ruby</h3>
+                        </li>
+                    </ul>
+                </div>
+
+                <button type="button">See Project </button>
+            </div>
+        </div>
+
+        <div class="project fourth">
+            <div class="preview f4"></div>
+            <div class="comment-section4">
+                <h2 class="description_title">Multi-Post Stories</h2>
+                <p class="description">A daily selection of privately personalized reads; no accounts or sign-ups
+                    required.
+                    has been the
+                    industry's standard
+                    dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
+                </p>
+                <div class="recipient">
+                    <ul>
+                        <li>
+                            <div>
+                                <h3>css</h3>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="verticale"></div>
+                        </li>
+                        <li>
+                            <div>
+                                <h3>html</h3>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="verticale"></div>
+                        </li>
+                        <li>
+                            <div>
+                                <h3>bootstrap</h3>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="verticale"></div>
+                        </li>
+                        <li>
+                            <h3>Ruby</h3>
+                        </li>
+                    </ul>
+                </div>
+
+                <button type="button">See Project </button>
+            </div>
+        </div>
+
+
+    </section>
+    <section class="form">
+        <h3 class="contact-title-phone-v">CONTACT US</h3>
+        <h3 class="contact-title-desktop-v">Let's chat</h3>
+        <p>If you have an application you are interested in developing, a feature that you need built or a project that
+            needs
+            coding. I’d love to help with it</p>
+
+        <form action="https://formspree.io/f/moqrdewo" method="post">
+            <input type="text" name="full name" placeholder="Full name" maxlength="30" required
+                class="name-field field1">
+            <input type="text" name="full name" placeholder="Last name" maxlength="30" required
+                class="name-field field2">
+            <input type="email" name="email" placeholder="khanetmoi@gmail.com" required>
+            <textarea cols="30" rows="10" name="message" placeholder="Enter text here" maxlength="500"
+                required></textarea>
+            <button type="submit">See project</button>
+        </form>
+    </section>
+
+    <hr class="extended-hr">
+
+    <footer>
+
+        <ul class="f-contact-list">
+            <li><a href=# class="icons"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href=# class="icons"><i class="fa-brands fa-github-square"></i></a></li>
+            <li><a href=# class="icons"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li><a href=# class="icons"><i class="fa-brands fa-angellist"></i></a></li>
+        </ul>
+        <h3>khanetmoi@gmail.com</h3>
+    </footer>
+
+
+</body>
+
+</html>
