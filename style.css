@@ -85,6 +85,7 @@ footer h3 {
   padding-right: 190px;
 }
 
+
 .intro h2 {
   font-family: Roboto, Arial, sans-serif;
   font-size: 32px;
@@ -305,6 +306,11 @@ button {
   background-color: #7d73fc;
   margin-top: 40px;
   padding: 10px 7px 10px 7px;
+}
+
+button:hover {
+  background-color: #b9b7d1;
+  color: #100a61;
 }
 
 .form h3 {
