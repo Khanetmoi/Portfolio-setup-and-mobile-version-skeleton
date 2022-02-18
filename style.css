@@ -422,27 +422,29 @@ footer {
   align-content: space-between;
 }
 
-
-
 @media all and (min-width: 992px) and (max-width: 1100px) {
   body {
     background: #191765;
     color: #fff;
   }
+  
   header {
     margin-top: 0;
     margin-left: 142px;
     margin-right: 142px;
   }
+  
   .hcontent {
     display: flex;
     justify-content: center;
   }
+  
   .desktop {
     display: inline-block;
     margin-right: 10px;
     color: #fff;
   }
+  
   .Icons {
     display: none;
   }
@@ -454,7 +456,7 @@ footer {
 
   .intro h1 {
     position: static;
-    font-family: Roboto;
+    font-family: Roboto, Arial, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 90px;
@@ -465,8 +467,6 @@ footer {
     content: '';
     position: absolute;
     left: 0;
-    width: 184px;
-    height: 184px;
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -476,20 +476,20 @@ footer {
   }
 
   .intro h2 {
-    font-family: Roboto;
+    font-family: Roboto, Arial, sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 40px;
     line-height: 47px;
     text-align: center;
-    color: #DFE1E6;
+    color: #dfe1e6;
     margin-top: -50px;
   }
 
   .intro p {
     margin-right: 30%;
     margin-left: 30%;
-    color: #B3BAC5;
+    color: #b3bac5;
   }
 
   .firsthr {
@@ -498,23 +498,23 @@ footer {
   }
 
   .intro p::before {
-   content: '';
+    content: '';
     position: absolute;
     right: 0;
     width: 200px;
     height: 200px;
     border-radius: 100%;
-    background-color: #ffffff;
+    background-color: #fff;
     box-shadow: 0 0 95px 0 #d1cfff;
     filter: blur(10px);
   }
 
   .abilities {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 25px;
-  margin-left: 30%;
-  margin-right: 20%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    margin-left: 30%;
+    margin-right: 20%;
   }
 
   .Framworks::before {
@@ -522,11 +522,11 @@ footer {
   }
 
   .title {
-    font-family: Roboto;
+    font-family: Roboto, Arial, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
-    color: #9390FF;
+    color: #9390ff;
   }
 
   .mywork1 {
@@ -556,7 +556,7 @@ footer {
 
   .project {
     display: flex;
-    align-items:flex-end;
+    align-items: flex-end;
   }
 
   .preview {
@@ -571,13 +571,13 @@ footer {
     height: 700.92px;
     left: -132px;
     top: 1479.12px;
-    background: #EDECFF;
+    background: #edecff;
     filter: blur(50px);
     transform: rotate(-36.38deg);
   }
 
   .comment-section {
-    margin:50px 40px 0 40px;
+    margin: 50px 40px 0 40px;
   }
 
   .first::after {
@@ -596,7 +596,7 @@ footer {
     height: 402px;
     right: 0;
     top: 2257.74px;
-    background: #EDECFF;
+    background: #edecff;
     filter: blur(50px);
     transform: matrix(-0.84, -0.54, -0.54, 0.84, 0, 0);
   }
@@ -629,7 +629,7 @@ footer {
     position: absolute;
     width: 146.19px;
     height: 616.38px;
-    right: 0px;
+    right: 0;
     background: #edecff;
     filter: blur(50px);
     transform: matrix(-0.26, 0.97, 0.97, 0.26, 0, 0);
