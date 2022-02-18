@@ -473,7 +473,7 @@ footer {
     background-color: #edecff;
     box-shadow: 0 0 15px 0 #edecff;
     filter: blur(10px);
-}
+  }
 
   .intro h2 {
     font-family: Roboto;
@@ -484,7 +484,7 @@ footer {
     text-align: center;
     color: #DFE1E6;
     margin-top: -50px;
-}
+  }
 
   .intro p {
     margin-right: 30%;
@@ -507,33 +507,32 @@ footer {
     background-color: #ffffff;
     box-shadow: 0 0 95px 0 #d1cfff;
     filter: blur(10px);
-}
+  }
 
   .abilities {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 25px;
- /* justify-content: space-between;*/
   margin-left: 30%;
   margin-right: 20%;
   }
+
   .Framworks::before {
     display: none;
   }
+
   .title {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
-    /*line-height: 29px;*/
-   /* display: flex;
-    align-items: center;*/
     color: #9390FF;
   }
 
   .mywork1 {
     display: block;
   }
+
   .social-media-myWork {
     display: flex;
     justify-content: space-between;
@@ -545,6 +544,7 @@ footer {
     margin-left: 142px;
     margin-right: 142px;
   }
+
   .recent_work {
     font-family: Roboto, arial, sans-serif;
     font-size: 64px;
@@ -552,8 +552,6 @@ footer {
     font-weight: 900;
     line-height: 114px;
     text-align: left;
-   /* margin-left: 142px;
-    margin-right: 142px;*/
   }
 
   .project {
@@ -577,6 +575,7 @@ footer {
     filter: blur(50px);
     transform: rotate(-36.38deg);
   }
+
   .comment-section {
     margin:50px 40px 0 40px;
   }
@@ -601,6 +600,7 @@ footer {
     filter: blur(50px);
     transform: matrix(-0.84, -0.54, -0.54, 0.84, 0, 0);
   }
+
   .third2::before {
     display: none;
   }
@@ -611,9 +611,10 @@ footer {
     width: 308px;
     height: 155px;
     left: -41px;
-    background: #EDECFF;
+    background: #edecff;
     filter: blur(20px);
   }
+
   .f4::before {
     display: none;
   }
@@ -633,10 +634,11 @@ footer {
     filter: blur(50px);
     transform: matrix(-0.26, 0.97, 0.97, 0.26, 0, 0);
   }
-  
+
   .contact-title-phone-v {
     display: none;
   }
+
   .contact-title-desktop-v {
     display: inline-block;
     font-family: Roboto, arial, sans-serif;
@@ -645,7 +647,6 @@ footer {
     font-weight: 900;
     line-height: 24px;
     text-align: center;
-
   }
 
   .form p {
@@ -663,7 +664,7 @@ footer {
   .field1 {
     margin-right: 5px;
   }
-  
+
   .field2 {
     display: inline;
     margin-left: 5px;
@@ -676,9 +677,9 @@ footer {
   }
 
   footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   footer h3 {
