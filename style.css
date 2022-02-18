@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap');
 @import url('https://rsms.me/inter/inter.css');
 
-
-
   body {
   background: #191765;
   color: #fff;
@@ -58,7 +56,6 @@ footer h3 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  
 }
 
 .intro-title {
@@ -79,15 +76,13 @@ footer h3 {
   content: '';
   position: absolute;
   left: 0;
-  width: 184px;
-  height: 184px;
   width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background-color: #edecff;
-    box-shadow: 0 0 15px 0 #edecff;
-    filter: blur(10px);
-    padding-right: 190;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #edecff;
+  box-shadow: 0 0 15px 0 #edecff;
+  filter: blur(10px);
+  padding-right: 190px;
 }
 
 .intro h2 {
@@ -97,7 +92,7 @@ footer h3 {
   font-weight: 600;
   line-height: 44px;
   text-align: center;
-  color: #edecFF;
+  color: #edecff;
 }
 
 .intro p {
@@ -128,7 +123,7 @@ footer h3 {
   padding-bottom: 20px;
 }
 
-.Framworks::before{
+.Framworks::before {
   content: '';
   position: absolute;
   width: 68px;
@@ -139,7 +134,7 @@ footer h3 {
   border-radius: 50%;
   background-color: #edecff;
   box-shadow: 0 0 15px 0 #edecff;
-  }
+ }
 
 li {
   font-family: Roboto, Arial, sans-serif;
@@ -148,7 +143,7 @@ li {
   font-weight: 600;
   line-height: 24px;
   text-align: left;
-  padding: 9.5px 40px 9.5px 0px;
+  padding: 9.5px 40px 9.5px 0;
 }
 
 .title {
@@ -160,7 +155,6 @@ li {
   letter-spacing: 0.03em;
   text-align: left;
   color: #9490ff;
-
 }
 
 .container {
@@ -183,7 +177,7 @@ li {
 
 .projects {
   margin-left: 24px;
-  margin-right: 24px; 
+  margin-right: 24px;
 }
 
 .first::after {
@@ -193,7 +187,7 @@ li {
   height: 472.57px;
   left: -112.04px;
   top: 1624.71px;
-  background: #EDECFF;
+  background: ##edecff;
   filter: blur(50px);
   transform: rotate(-36.38deg);
   border-radius: 50%;
@@ -208,7 +202,7 @@ li {
   height: 261.6px;
   right: 0;
   top: 2437.23px;
-  background: #EDECFF;
+  background: #edecff;
   filter: blur(30px);
   transform: matrix(-0.84, -0.54, -0.54, 0.84, 0, 0);
   background-color: #edecff;
@@ -233,7 +227,7 @@ li {
   width: 101.29px;
   height: 377.04px;
   left: 258.22px;
-  background: #EDECFF;
+  background: #edecff;
   filter: blur(20px);
   transform: matrix(-0.26, 0.97, 0.97, 0.26, 0, 0);
   box-shadow: 0 0 -15px 0 #edecff;
@@ -271,11 +265,9 @@ li {
   font-weight: 1000;
   font-size: 40px;
   color: #9490ff;
-;
 }
 
 .preview {
- /* position: static;*/
   width: 100%;
   height: 236px;
   background-color: #fff;
@@ -427,7 +419,7 @@ footer {
     background: #191765;
     color: #fff;
   }
-  
+
   header {
     margin-top: 0;
     margin-left: 142px;
@@ -438,13 +430,13 @@ footer {
     display: flex;
     justify-content: center;
   }
-  
+
   .desktop {
     display: inline-block;
     margin-right: 10px;
     color: #fff;
   }
-  
+
   .Icons {
     display: none;
   }
