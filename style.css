@@ -76,7 +76,7 @@ footer h3 {
   content: '';
   position: absolute;
   left: 0;
-  width: 0px;
+  width: 0;
   height: 100px;
   border-radius: 50%;
   background-color: #edecff;
