@@ -186,6 +186,7 @@ li {
 .recipient ul {
   display: flex;
   justify-content: flex-start;
+  
 }
 
 button {
@@ -213,7 +214,8 @@ button {
   font-style: normal;
   font-weight: 500;
   line-height: 20px;
-  margin: -10px;
+  margin: 10px;
+  float: left;
 }
 
 .verticale {
