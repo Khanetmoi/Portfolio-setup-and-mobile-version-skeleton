@@ -183,10 +183,10 @@ li {
   color: #dcdce8;
 }
 
-.recipient ul {
-  display: flex;
+.recipient {
+  /*display: flex;
   justify-content: flex-start;
-  
+  */
 }
 
 button {
@@ -208,7 +208,7 @@ button {
   margin-bottom: -5px;
 }
 
-.recipient li h3 {
+.recipient h3 {
   font-family: Inter, Arial, sans-serif;
   font-size: 15px;
   font-style: normal;
