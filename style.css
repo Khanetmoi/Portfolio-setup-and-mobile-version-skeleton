@@ -432,3 +432,269 @@ footer {
   justify-content: center;
   align-content: space-between;
 }
+
+@media all and (min-width: 992px) {
+  body {
+    background: #191765;
+    color: #fff;
+  }
+
+  header {
+    margin-top: 0;
+    margin-left: 142px;
+    margin-right: 142px;
+  }
+
+  .hcontent {
+    display: flex;
+    justify-content: center;
+  }
+
+  .desktop {
+    display: inline-block;
+    margin-right: 10px;
+    color: #fff;
+  }
+
+  .Icons {
+    display: none;
+  }
+
+  .intro {
+    display: grid;
+    gap: 10px;
+  }
+
+  .intro h1 {
+    position: static;
+    font-family: Roboto, Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 90px;
+    color: #9391ff;
+  }
+
+  .intro h1::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 184px;
+    border-radius: 50%;
+    background-color: #edecff;
+    box-shadow: 0 0 95px 0 #edecff;
+    filter: blur(10px);
+    margin-left: 50px;
+  }
+
+  .intro h2 {
+    font-family: Roboto, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #dfe1e6;
+    margin-top: -50px;
+  }
+
+  .intro p {
+    margin-right: 30%;
+    margin-left: 30%;
+    color: #b3bac5;
+  }
+
+  .firsthr {
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+
+  .intro p::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 95px 0 #d1cfff;
+    filter: blur(10px);
+  }
+
+  .abilities {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    margin-left: 30%;
+    margin-right: 20%;
+  }
+
+  .Framworks::before {
+    display: none;
+  }
+
+  .title {
+    font-family: Roboto, Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #9390ff;
+  }
+
+  .mywork1 {
+    display: block;
+  }
+
+  .social-media-myWork {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 106px 142px 237px 142px;
+  }
+
+  .projects {
+    margin-left: 142px;
+    margin-right: 142px;
+  }
+
+  .recent_work {
+    font-family: Roboto, arial, sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 114px;
+    text-align: left;
+  }
+
+  .project {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .preview {
+    width: 800%;
+    height: 400px;
+  }
+
+  .projects hr::after {
+    content: '';
+    position: absolute;
+    width: 57.53px;
+    height: 700.92px;
+    left: -132px;
+    top: 1479.12px;
+    background: #edecff;
+    filter: blur(50px);
+    transform: rotate(-36.38deg);
+  }
+
+  .comment-section {
+    margin: 50px 40px 0 40px;
+  }
+
+  .first::after {
+    display: none;
+  }
+
+  .second {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .second::after {
+    content: '';
+    position: absolute;
+    width: 108px;
+    height: 402px;
+    right: 0;
+    top: 2257.74px;
+    background: #edecff;
+    filter: blur(40px);
+    transform: matrix(-0.84, -0.54, -0.54, 0.84, 0, 0);
+  }
+
+  .second .comment-section {
+    margin-left: 0;
+  }
+
+  .third2::before {
+    display: none;
+  }
+
+  .third::after {
+    content: '';
+    position: absolute;
+    width: 150px;
+    height: 155px;
+    left: -41px;
+    background: #edecff;
+    filter: blur(50px);
+  }
+
+  .f4::before {
+    display: none;
+  }
+
+  .fourth {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .fourth::before {
+    content: '';
+    position: absolute;
+    width: 120.19px;
+    height: 116.38px;
+    right: 0;
+    background: #edecff;
+    filter: blur(40px);
+    transform: matrix(-0.26, 0.97, 0.97, 0.26, 0, 0);
+  }
+
+  .contact-title-phone-v {
+    display: none;
+  }
+
+  .contact-title-desktop-v {
+    display: inline-block;
+    font-family: Roboto, arial, sans-serif;
+    font-size: 400px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  .form p {
+    margin: 0 20% 84px 20%;
+  }
+
+  form {
+    width: 680px;
+  }
+
+  .name-field {
+    width: 100%;
+  }
+
+  .field1 {
+    margin-right: 5px;
+  }
+
+  form button {
+    width: 160px;
+    height: 48px;
+    margin: 89px 0;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  footer h3 {
+    margin-bottom: -5px;
+  }
+}
