@@ -76,7 +76,7 @@ footer h3 {
   content: '';
   position: absolute;
   left: 0;
-  width: 0px;
+  width: 0;
   height: 100px;
   border-radius: 50%;
   background-color: #edecff;
@@ -201,7 +201,6 @@ li {
   box-shadow: 0 0 15px 0 #edecff;
   z-index: -1;
 }
-
 
 .second::after {
   content: '';
@@ -433,4 +432,3 @@ footer {
   justify-content: center;
   align-content: space-between;
 }
-
