@@ -655,16 +655,11 @@ footer {
   }
 
   .name-field {
-    width: 44%;
+    width: 100%;
   }
 
   .field1 {
     margin-right: 5px;
-  }
-
-  .field2 {
-    display: inline;
-    margin-left: 5px;
   }
 
   form button {
