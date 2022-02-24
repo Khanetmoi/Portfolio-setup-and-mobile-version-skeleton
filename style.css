@@ -180,19 +180,26 @@ li {
   margin-right: 24px;
 }
 
+.first {
+  position: relative;
+  z-index: 2;
+}
+
 .first::after {
   content: '';
   position: absolute;
-  width: 0.61px;
-  height: 472.57px;
-  left: -112.04px;
-  top: 1624.71px;
+  float: left;
+  width: 39.61px;
+  height: 682.57px;
+  left: 0;
+  top: -100px;
   background: #edecff;
   filter: blur(50px);
   transform: rotate(-36.38deg);
   border-radius: 50%;
   background-color: #edecff;
   box-shadow: 0 0 15px 0 #edecff;
+  z-index: -1;
 }
 
 .second::after {
@@ -221,23 +228,39 @@ li {
   box-shadow: 0 0 15px 0 #edecff;
 }
 
+.fourth {
+  position: relative;
+  z-index: 3;
+}
+
+.f4 {
+  position: relative;
+  z-index: 5;
+}
+
 .f4::before {
   content: '';
   position: absolute;
+  float: right;
   width: 101.29px;
   height: 377.04px;
-  left: 258.22px;
+  right: -100px;
+  top: 150px;
   background: #edecff;
-  filter: blur(20px);
+  filter: blur(50px);
   transform: matrix(-0.26, 0.97, 0.97, 0.26, 0, 0);
   box-shadow: 0 0 -15px 0 #edecff;
   padding-right: 10px;
+  z-index: -1;
 }
 
 .work_section {
   display: flex;
   justify-content: center;
-  align-items: baseline;
+}
+
+.mywork1 {
+  display: none;
 }
 
 .mywork1 {
