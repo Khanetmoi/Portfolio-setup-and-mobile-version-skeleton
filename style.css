@@ -84,6 +84,7 @@ footer h3 {
   box-shadow: 0 0 15px 0 #edecff;
   filter: blur(10px);
   padding-right: 150px;
+  overflow-x: hidden;
 }
 
 .intro h2 {
@@ -135,6 +136,7 @@ footer h3 {
   border-radius: 50%;
   background-color: #edecff;
   box-shadow: 0 0 15px 0 #edecff;
+  overflow-x: hidden;
 }
 
 li {
@@ -201,6 +203,7 @@ li {
   background-color: #edecff;
   box-shadow: 0 0 15px 0 #edecff;
   z-index: -1;
+  overflow-x: hidden;
 }
 
 .second::after {
@@ -215,6 +218,7 @@ li {
   transform: matrix(-0.84, -0.54, -0.54, 0.84, 0, 0);
   background-color: #edecff;
   box-shadow: 0 0 15px 0 #edecff;
+  overflow-x: hidden;
 }
 
 .third::before {
@@ -227,6 +231,7 @@ li {
   background: rgba(237, 236, 255, 0.3);
   filter: blur(50px);
   box-shadow: 0 0 15px 0 #edecff;
+  overflow-x: hidden;
 }
 
 .fourth {
@@ -253,6 +258,7 @@ li {
   box-shadow: 0 0 -15px 0 #edecff;
   padding-right: 10px;
   z-index: -1;
+  overflow-x: hidden;
 }
 
 .work_section {
