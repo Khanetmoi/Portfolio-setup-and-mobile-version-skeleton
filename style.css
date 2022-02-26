@@ -2,6 +2,7 @@
 @import url('https://rsms.me/inter/inter.css');
 
 body {
+  overflow-x: hidden;
   background: #191765;
   color: #fff;
 }
