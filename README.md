@@ -1,7 +1,9 @@
 # Portfolio: application deploy
 
 # Description the project.
+
 In this project, I've published using Git page technology my portfolio.
+
 
 
 # Built With
@@ -11,8 +13,7 @@ In this project, I've published using Git page technology my portfolio.
     
 # Link to the result of the website
   https://khanetmoi.github.io/Portfolio-setup-and-mobile-version-skeleton/
-  
-  
+
 # 👤 Author1
 
     GitHub: @Khanetmoi
