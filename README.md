@@ -1,7 +1,9 @@
-# Portfolio-setup-and-mobile-version-skeleton
+# Portfolio: application deploy
 
 # Description the project.
-This is the published version of my portfolio.
+
+In this project, I've published using Git page technology my portfolio.
+
 
 
 # Built With
@@ -11,7 +13,7 @@ This is the published version of my portfolio.
     
 # Link to the result of the website
   https://khanetmoi.github.io/Portfolio-setup-and-mobile-version-skeleton/
-    
+
 # 👤 Author1
 
     GitHub: @Khanetmoi
