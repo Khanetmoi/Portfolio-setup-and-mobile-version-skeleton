@@ -1,7 +1,7 @@
 # Portfolio-setup-and-mobile-version-skeleton
 
 # Description the project.
-In this project, I will set up a Portfolio setup and mobile version skeleton.
+This is the published version of my portfolio.
 
 
 # Built With
@@ -9,6 +9,8 @@ In this project, I will set up a Portfolio setup and mobile version skeleton.
     html 5 , css
     visual studio code
     
+# Link to the result of the website
+  https://khanetmoi.github.io/Portfolio-setup-and-mobile-version-skeleton/
     
 # 👤 Author1
 
