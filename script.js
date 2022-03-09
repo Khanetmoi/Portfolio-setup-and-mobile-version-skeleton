@@ -1,5 +1,5 @@
 function showMenu() {
-  var htmlShow = document.getElementById('WebsitePages');
+  const htmlShow = document.getElementById('WebsitePages');
   if (htmlShow.style.display === 'none') {
     htmlShow.style.display = 'block';
   } else {
