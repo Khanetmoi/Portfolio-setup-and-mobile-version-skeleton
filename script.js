@@ -1,27 +1,8 @@
-var toggleButton = document.getElementsByClassName("toggleButton");
-
-var hcontent = document.getElementsByClassName('hcontent');
-
-// document.write (toggleButton)
-// console.log(toggleButton)
-// console.log('hi')
-// console.log(hcontent)
-// console.log('hi')
-// console.log(ik)
-
-// document.write('hihk')
-
-toggleButton.onclick = function() {
-
-  if(hcontent.className == "active"){
-    //show the list
-    //hcontent.className = "";
-    toggleButton.innerHTML = "X";
+function showMenu() {
+  var htmlShow = document.getElementById("WebsitePages");
+  if (htmlShow.style.display === "none") {
+    htmlShow.style.display = "block";
+  } else {
+    htmlShow.style.display = "none";
   }
-  else {
-    hcontent.className="active"
-    
-  }
-};
-
-// console.log('ll')
+}
