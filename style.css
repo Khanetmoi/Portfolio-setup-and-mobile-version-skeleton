@@ -484,8 +484,7 @@ footer {
   }
 
   .hcontent {
-    display: none;
-    flex-direction: column;
+    display: flex;
     justify-content: center;
   }
 
@@ -495,9 +494,9 @@ footer {
     color: #fff;
   }
 
-  /* .toggleButton {
+  .toggleButton {
     display: none;
-  } */
+  }
 
   .intro {
     display: grid;
