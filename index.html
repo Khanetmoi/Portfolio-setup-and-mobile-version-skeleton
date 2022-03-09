@@ -2,23 +2,17 @@
 <html lang="en">
 
 <head>
-   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-HDWG0CLCER"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-HDWG0CLCER');
-</script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="desktop.css">
+    <title>Document</title>
+      
     <script src="https://kit.fontawesome.com/bf723a76a7.js" crossorigin="anonymous"></script>
     <script src="script.js"></script>
-    <title>Document</title>
+    
 </head>
 
 <body>
@@ -26,14 +20,13 @@
         <div class="header_elements name">
             <h3>ikpro</h3>
         </div>
-
-        <div class="hcontent">
-            <a href=# class="header_elements desktop hportfolio">Portfolio</a>
-            <a href=# class="header_elements desktop habout">About</a>
-            <a href=# class="header_elements desktop hcontact">Contact</a>
-            <a href=# class="header_elements desktop hletters"><i class="fa-solid fa-envelope"></i></a>
-            <div class="header_elements Icons"><a href=#><i class="fa-solid fa-bars"></i></a></div>
-        </div>
+        <a href=# class="header_elements toggleButton" id="tButton"><i class="fa-solid fa-bars"></i></a>
+        <ul class="hcontent" id="WebsitePages">
+          <li><a href=# class="header_elements desktop hportfolio">Portfolio</a></li>  
+           <li><a href=# class="header_elements desktop habout">About</a></li> 
+           <li><a href=# class="header_elements desktop hcontact">Contact</a></li> 
+            <li> <a href=# class="header_elements desktop hletters"><i class="fa-solid fa-envelope"></i></a></li>
+        </ul>
     </header>
 
     <section class="intro">
@@ -334,7 +327,7 @@
         <h3>khanetmoi@gmail.com</h3>
     </footer>
 
-
+<script src="script.js"></script>
 </body>
 
 </html>

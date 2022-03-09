@@ -17,13 +17,17 @@ a {
   text-decoration: none;
 }
 
-.desktop {
-  display: none;
+
+
+
+ul li .desktop.show {
+  display: flex;
 }
 
 header {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
   justify-content: space-between;
   color: white;
   margin-top: 44px;
@@ -40,6 +44,17 @@ header h3 {
   text-align: center;
 }
 
+.hcontent.active {
+  display: flex;
+  justify-content: center;
+}
+
+.hcontent {
+  /* display: none;  */
+}
+
+
+
 footer h3 {
   font-family: Roboto, sans-serif, arial;
   font-size: 18px;
@@ -51,6 +66,12 @@ footer h3 {
 
 .name h3 {
   font-size: 18px;
+}
+
+.toggleButton {
+  position: absolute;
+  right: 1rem;
+  color: white; 
 }
 
 .intro {
@@ -177,6 +198,7 @@ li {
   color: #fff;
   font-size: 20px;
 }
+
 
 .projects {
   margin-left: 24px;
@@ -451,6 +473,14 @@ footer {
     margin-top: 0;
     margin-left: 142px;
     margin-right: 142px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    margin-top: 44px;
+    margin-left: 24px;
+    margin-right: 24px;
+
   }
 
   .hcontent {
@@ -464,7 +494,7 @@ footer {
     color: #fff;
   }
 
-  .Icons {
+  .toggleButton {
     display: none;
   }
 
