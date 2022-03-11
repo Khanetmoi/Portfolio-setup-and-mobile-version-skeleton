@@ -81,6 +81,15 @@ header h3 {
   align-items: center;
 }
 
+footer h3 {
+  font-family: Roboto, sans-serif, arial;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px;
+  text-align: center;
+}
+
 .navstyle h3 {
   width: 40%;
 }
@@ -109,15 +118,6 @@ header h3 {
 
 .item i {
   color: #7d73fc;
-}
-
-footer h3 {
-  font-family: Roboto, sans-serif, arial;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 18px;
-  text-align: center;
 }
 
 .tattempt {
