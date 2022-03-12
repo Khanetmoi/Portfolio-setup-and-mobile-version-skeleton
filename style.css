@@ -50,15 +50,6 @@ header h3 {
   display: none;
 }
 
-icons ul {
-  display: flex;
-  list-style: none;
-  gap: 20px;
-  align-items: center;
-  margin: 0;
-  padding: 0;
-}
-
 .app-header {
   display: flex;
   justify-content: space-between;
@@ -548,7 +539,6 @@ footer {
 
   header {
     width: 100%;
-    margin-top: 0;
     margin-left: 142px;
     margin-right: 142px;
     display: flex;
