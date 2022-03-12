@@ -1,0 +1,20 @@
+{
+  "name": "Portfolio-setup-and-mobile-version-skeleton",
+  "version": "1.0.0",
+  "description": "In this project, I've published using Git page technology my portfolio.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Khanetmoi/Portfolio-setup-and-mobile-version-skeleton.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Khanetmoi/Portfolio-setup-and-mobile-version-skeleton/issues"
+  },
+  "homepage": "https://github.com/Khanetmoi/Portfolio-setup-and-mobile-version-skeleton#readme"
+}

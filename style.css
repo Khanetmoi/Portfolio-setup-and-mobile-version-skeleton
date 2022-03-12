@@ -17,13 +17,14 @@ a {
   text-decoration: none;
 }
 
-.desktop {
-  display: none;
+ul li .desktop.show {
+  display: flex;
 }
 
 header {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
   justify-content: space-between;
   color: white;
   margin-top: 44px;
@@ -40,6 +41,99 @@ header h3 {
   text-align: center;
 }
 
+.hcontent.active {
+  display: flex;
+  justify-content: center;
+}
+
+.hcontent {
+  display: none;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 36px 0 24px;
+  background: #fff;
+  height: 48px;
+  position: fixed;
+  width: 100vw;
+  box-shadow: 0 5px 35px -12px rgba(0, 0, 0, 0.45);
+}
+
+.app-header p {
+  margin: 0;
+}
+
+.desktop-menu {
+  display: none;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  border-radius: 2px;
+  background-color: #6070ff;
+  transition: all 0.3s ease-in-out 0.3s;
+}
+
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(24px) rotate(45deg);
+  background-color: #fff;
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(8px) rotate(-45deg);
+  background-color: #fff;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  position: fixed;
+  background-color: rgba(50, 70, 255, 0.76);
+  backdrop-filter: blur(5px);
+  opacity: 100%;
+  width: 100%;
+  height: 100vh;
+  right: -100%;
+  top: 0;
+  transition: 0.3s;
+  padding: 56px 0 0 28px;
+}
+
+.nav-menu.active {
+  right: 0;
+}
+
+.nav-item {
+  color: #fff;
+  font-weight: 600;
+  font-size: 32px;
+}
+
+li {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  padding: 9.5px 40px 9.5px 0;
+}
+
+.nav-menu li {
+  margin-bottom: 24px;
+}
+
 footer h3 {
   font-family: Roboto, sans-serif, arial;
   font-size: 18px;
@@ -51,6 +145,12 @@ footer h3 {
 
 .name h3 {
   font-size: 18px;
+}
+
+.toggleButton {
+  position: absolute;
+  right: 1rem;
+  color: white;
 }
 
 .intro {
@@ -137,16 +237,6 @@ footer h3 {
   background-color: #edecff;
   box-shadow: 0 0 15px 0 #edecff;
   overflow-x: hidden;
-}
-
-li {
-  font-family: Roboto, Arial, sans-serif;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 24px;
-  text-align: left;
-  padding: 9.5px 40px 9.5px 0;
 }
 
 .title {
@@ -366,7 +456,7 @@ button {
   justify-content: center;
   margin-top: 100px;
   margin-left: 24px;
-  margin-right: 24px;
+  margin-right: 50px;
 }
 
 .form p {
@@ -448,9 +538,13 @@ footer {
   }
 
   header {
-    margin-top: 0;
+    width: 100%;
     margin-left: 142px;
     margin-right: 142px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
   }
 
   .hcontent {
@@ -464,7 +558,7 @@ footer {
     color: #fff;
   }
 
-  .Icons {
+  .toggleButton {
     display: none;
   }
 
