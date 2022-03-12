@@ -1,24 +1,21 @@
-const form = document.getElementById('form');
-const error = document.getElementById('error');
+const hamburger = document.querySelector('.hamburger');
+const navbarlist = document.querySelector('.navbarlist');
+const logo = document.querySelector('.logo');
+const body = document.querySelector('body');
 
-form.addEventListener('submit', (e) => {
-  let valid = true;
-  const email = document.getElementById('email').value;
-  const emailArray = email.split('');
-
-  for (let i = 0; i < emailArray.length; i += 1) {
-    if (
-      emailArray[i] !== emailArray[i].toLowerCase()
-            && emailArray[i] !== '@' && emailArray[i] !== '.'
-    ) {
-      valid = false;
-    }
-  }
-
-  if (valid) {
-    error.innerHTML = '';
-  } else {
-    e.preventDefault();
-    error.innerHTML = 'Please enter your email in lower case only';
+hamburger.addEventListener('click', () => {
+  hamburger.classList.toggle('show');
+  navbarlist.classList.toggle('show');
+  body.style.overflow = 'hidden';
+  if (body.style.width < 574) {
+    logo.innerHTML = '';
   }
 });
+
+document.querySelectorAll('.nav-list').forEach((e) => e.addEventListener('click', () => {
+  body.style.overflow = 'none';
+  hamburger.classList.remove('show');
+  navbarlist.classList.remove('show');
+  logo.innerHTML = 'John Doe';
+  logo.style.color = 'white';
+}));
