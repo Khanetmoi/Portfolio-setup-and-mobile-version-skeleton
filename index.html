@@ -2,335 +2,218 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/fe902c9bd7.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="desktop.css">
-    <title>Document</title>
-
-    <script src="https://kit.fontawesome.com/bf723a76a7.js" crossorigin="anonymous"></script>
-    
-
+    <link rel="stylesheet" href="window.css">
+    <title>Khan's Portfolio</title>
 </head>
 
 <body>
-    <header>
-        <div class="header_elements name">
-            <h3>ikpro</h3>
-        </div>
-        <a href=# class="header_elements toggleButton" onclick="showMenu()"><i class="fa-solid fa-bars"></i></a>
-        <ul class="hcontent" id="WebsitePages">
-            <li><a href=# class="header_elements desktop hportfolio">Portfolio</a></li>
-            <li><a href=# class="header_elements desktop habout">About</a></li>
-            <li><a href=# class="header_elements desktop hcontact">Contact</a></li>
-            <li> <a href=# class="header_elements desktop hletters"><i class="fa-solid fa-envelope"></i></a></li>
-        </ul>
-    </header>
+    <div class="window-popup">
 
-    <section class="intro">
-        <h1 class="intro-title">Inayat</h1>
-        <h2>Software Developer</h2>
+    </div>
+    <div class="wrapper">
+        <header>
+            <div class="logo hide-in-desktop show">
+                <a href="">John Doe</a>
+            </div>
 
-        <p>
-            I can help you build a product , feature or website
-            Look through some of my work and experience! If
-            you like what you see and have a project you need
-            coded, don’t hestiate to contact me.
-        </p>
-    </section>
-    <hr class="firsthr frt">
-    <section class="abilities">
-        <div class="languages">
-            <ul>
-                <li class="title">Language</li>
-                <li>JavaScript</li>
-                <li>Ruby</li>
-                <li>Html</li>
-                <li>Css</li>
-                <li>C++</li>
-                <li>Python</li>
-                <li>flutter</li>
-                <li>java</li>
-                <li>C#</li>
-            </ul>
-        </div>
-        <div class="Framworks">
-            <ul>
-                <li class="title">Frameworks</li>
-                <li>Bootstrap</li>
-                <li>Ruby on Rails</li>
-            </ul>
+            <nav>
+                <ul class="hide-in-mobile navbarlist">
+                    <li>
+                        <div class="menu"><a href="#Portfolio" class="nav-list">Portfolio</a>
+                            <img src="IMG1/arrow.png" alt="">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="menu"><a href="#About" class="nav-list">About</a>
+                            <img src="IMG1/arrow.png" alt="">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="menu"><a href="#Contact" class="nav-list">Contact</a>
+                            <img src="IMG1/arrow.png" alt="">
+                        </div>
+                    </li>
+                    <li class="msg">
+                        <a href="#Contact"><img src="IMG1/Union.png" alt="mail pic" /></a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bars"></span>
+                    <span class="bars"></span>
+                    <span class="bars"></span>
+                </div>
+            </nav>
 
-        </div>
-        <div class="Skills">
-            <ul>
-                <li class="title">Skills</li>
-                <li>Codepen</li>
-                <li>Github</li>
-                <li>Gitlab</li>
-                <li>Terminal</li>
-            </ul>
+        </header>
+        <section class="first-section hide-in-desktop show" id="About">
+            <div class="about-container">
+                <h1 class=" hide-in-desktop show ">Inayat khan
+                </h1>
+                <h3 class=" hide-in-desktop show ">Software
+                    Developer</h3>
+            </div>
 
-        </div>
+            <div class="intro-container hide-in-desktop show">
+                <p class="hide-in-desktop show">I can help you
+                    build a product , feature or website Look
+                    through some of my work and experience! If
+                    you like what you see and have a project you
+                    need coded, don’t hesitate to contact me.
+                </p>
 
-    </section>
+                <!-- Technologies section -->
 
-    <hr class="firsthr">
+                <div class="lang-framework-container hide-in-desktop show">
+                    <div class="language-container">
 
-    <section class="social-media-myWork">
-        <a href=# class="mywork1">
-            <div class="work_section">
-                <div class="work_link2"><i class="fa-solid fa-arrow-down"></i></div>
-                <div class="work_link1">
-                    <h3>Work</h3>
+                        <ul class="list-container">
+                            <li class="title hide-in-desktop show">
+                                Language</li>
+                            <li>Javascript</li>
+                            <li>Ruby</li>
+                            <li>Html</li>
+                            <li>Css</li>
+                        </ul>
+                    </div>
+                    <div class="frameworks-container">
+
+                        <ul class="list-container">
+                            <li class="title">Frameworks</li>
+                            <li>Bootstrap</li>
+                            <li>Ruby on Rails</li>
+                            <li>RSPec</li>
+                            <li>CapyBara</li>
+                            <li>Selenimum</li>
+                        </ul>
+                    </div>
+                    <div class="skills-container">
+                        <ul class="list-container">
+                            <li class="title">Skills</li>
+                            <li>Codekit</li>
+                            <li>Github</li>
+                            <li>Codepen</li>
+                            <li>Gitlab</li>
+                            <li>Terminal</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Social media area -->
+                <div class="social-media-container  show">
+                    <div class="work-image1 hide-in-mobile show">
+                        <p>Works</p>
+                        <img src="./IMG1/arrow-down.svg" alt="">
+                    </div>
+                    <div class="social-apps-container">
+                        <ul class="social-apps hide-in-mobile show">
+                            <li>
+                                <a href="https://github.com/edubew"><img src="IMG1/github.png" alt="github pic" /></a>
+                            </li>
+                            <li>
+                                <a href="https://linkedin.com/in/winfred-edube-9820a422a/"><img src="IMG1/linkedin.png"
+                                        alt="linkedin pic" /></a>
+                            </li>
+                            <li>
+                                <a href=""><img src="IMG1/vectorp.png" alt="angellist pic" /></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/@edube_winne"><img src="IMG1/twitter.png"
+                                        alt="twitter pic" /></a>
+                            </li>
+                            <li>
+                                <a href="edubew98@gmail"><img src="IMG1/m.png" alt="mail pic" /></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="work-image2 hide-in-mobile show">
+                        <img src="./IMG1/arrow-down.svg" alt="">
+                        <p>Works</p>
+                    </div>
                 </div>
             </div>
-        </a>
-        <section class="container">
-            <ul class="contact-list">
-                <li><a href=# class="icons"><i class="fa-brands fa-twitter"></i></a></li>
-                <li><a href=# class="icons"><i class="fa-brands fa-github-square"></i></a></li>
-                <li><a href=# class="icons"><i class="fa-brands fa-linkedin"></i></a></li>
-                <li><a href=# class="icons"><i class="fa-brands fa-angellist"></i></a></li>
-            </ul>
         </section>
-        <a href=#>
-            <div class="work_section">
-                <div class="work_link2"><i class="fa-solid fa-arrow-down"></i></div>
-                <div class="work_link1">
-                    <h3>Work</h3>
+
+        <!-- Second section area -->
+        <section id="Portfolio">
+            <div class="main-content-area hide-in-desktop show">
+                <div class="work-image hide-in-desktop">
+                    <img src="IMG1/work-element.png" alt="">
+                </div>
+                <div class="title-container hide-in-desktop show">
+                    <h2 class="title">MY RECENT WORK</h2>
+                    <img src="IMG1/divider-vector.png" alt="">
+                </div>
+                <div class="main-body hide-in-desktop show">
+
                 </div>
             </div>
-        </a>
-    </section>
+        </section>
 
-    <section class="projects">
-        <h2 class="recent_work">My recent work</h2>
-        <hr>
-        <div class="project first">
-            <div class="preview"></div>
-            <div class="comment-section">
-                <h2 class="description_title">Multi-Post Stories</h2>
-                <p class="description">A daily selection of privately personalized reads; no accounts or sign-ups
-                    required.
-                    has been the
-                    industry's standard
-                    dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
-                </p>
-                <div class="recipient">
+        <section id="Contact">
+            <div class="form-container">
+                <div class="form-intro">
+                    <h3 class="hide-in-desktop">CONTACT US</h3>
+                    <h3 class="hide-in-mobile show">Let’s chat!
+                    </h3>
+                    <p>If you have an application you are
+                        interested in developing, a feature that
+                        you need built or a project that needs
+                        coding. I’d love to help with it </p>
+                </div>
+                <form id="form" action="https://formspree.io/f/mvolalaq" method="POST">
+                    <input type="text" name="Username" placeholder="Name" required maxlength="30">
+                    <input type="email" id="email" name="user-email" placeholder="Your email" required>
+                    <textarea name="message" required maxlength="500" placeholder="Enter your message here"></textarea>
+                    <small></small>
+                    <button type="submit" class="form-button">Send</button>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-container hide-in-desktop show">
+                <div class="social-media-footer">
                     <ul>
                         <li>
-                            <div>
-                                <h3>css</h3>
-                            </div>
+                            <a href="https://github.com/edubew"><img src="IMG1/github.png" alt="github pic" /></a>
                         </li>
                         <li>
-                            <div class="verticale"></div>
+                            <a href="https://linkedin.com/in/winfred-edube-9820a422a/"><img src="IMG1/linkedin.png"
+                                    alt="linkedin pic" /></a>
                         </li>
                         <li>
-                            <div>
-                                <h3>html</h3>
-                            </div>
+                            <a href=""><img src="IMG1/vectorp.png" alt="angellist pic" /></a>
                         </li>
                         <li>
-                            <div class="verticale"></div>
+                            <a href="https://twitter.com/@edube_winne"><img src="IMG1/twitter.png"
+                                    alt="twitter pic" /></a>
                         </li>
                         <li>
-                            <div>
-                                <h3>bootstrap</h3>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="verticale"></div>
-                        </li>
-                        <li>
-                            <h3>Ruby</h3>
+                            <a href="edubew98@gmail.com"><img src="IMG1/m.png" alt="mail pic" /></a>
                         </li>
                     </ul>
                 </div>
-
-                <button type="button">See Project</button>
-
-            </div>
-
-        </div>
-        <div class="project second">
-            <div class="preview"></div>
-            <div class="comment-section">
-                <h2 class="description_title">Multi-Post Stories</h2>
-                <p class="description">A daily selection of privately personalized reads; no accounts or sign-ups
-                    required.
-                    has been the
-                    industry's standard
-                    dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
-                </p>
-                <div class="recipient">
+                <div class="mail-container">
                     <ul>
                         <li>
-                            <div>
-                                <h3>css</h3>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="verticale"></div>
-                        </li>
-                        <li>
-                            <div>
-                                <h3>html</h3>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="verticale"></div>
-                        </li>
-                        <li>
-                            <div>
-                                <h3>bootstrap</h3>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="verticale"></div>
-                        </li>
-                        <li>
-                            <h3>Ruby</h3>
+                            <a href="Khanet@gmail.com">khanetmoi@gmail.com</a>
                         </li>
                     </ul>
                 </div>
-
-                <button type="button">See Project </button>
             </div>
-
-        </div>
-        <div class="project third third2">
-            <div class="preview"></div>
-            <div class="comment-section">
-                <h2 class="description_title">Multi-Post Stories</h2>
-                <p class="description">A daily selection of privately personalized reads; no accounts or sign-ups
-                    required.
-                    has been the
-                    industry's standard
-                    dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
-                </p>
-                <div class="recipient">
-                    <ul>
-                        <li>
-                            <div>
-                                <h3>css</h3>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="verticale"></div>
-                        </li>
-                        <li>
-                            <div>
-                                <h3>html</h3>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="verticale"></div>
-                        </li>
-                        <li>
-                            <div>
-                                <h3>bootstrap</h3>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="verticale"></div>
-                        </li>
-                        <li>
-                            <h3>Ruby</h3>
-                        </li>
-                    </ul>
-                </div>
-
-                <button type="button">See Project </button>
-            </div>
-        </div>
-
-        <div class="project fourth">
-            <div class="preview f4"></div>
-            <div class="comment-section4">
-                <h2 class="description_title">Multi-Post Stories</h2>
-                <p class="description">A daily selection of privately personalized reads; no accounts or sign-ups
-                    required.
-                    has been the
-                    industry's standard
-                    dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
-                </p>
-                <div class="recipient">
-                    <ul>
-                        <li>
-                            <div>
-                                <h3>css</h3>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="verticale"></div>
-                        </li>
-                        <li>
-                            <div>
-                                <h3>html</h3>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="verticale"></div>
-                        </li>
-                        <li>
-                            <div>
-                                <h3>bootstrap</h3>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="verticale"></div>
-                        </li>
-                        <li>
-                            <h3>Ruby</h3>
-                        </li>
-                    </ul>
-                </div>
-
-                <button type="button">See Project </button>
-            </div>
-        </div>
-
-
-    </section>
-
-    <section class="form">
-        <h3 class="contact-title-phone-v">CONTACT US</h3>
-        <h3 class="contact-title-desktop-v">Let's chat</h3>
-        <p>If you have an application you are interested in developing, a feature that you need built or a project that
-            needs
-            coding. I’d love to help with it</p>
-
-        <form id="form" action="https://formspree.io/f/moqrdewo" method="post">
-          <div class="form-input">
-            <input type="text" name="full name" placeholder="Full name" maxlength="30" required class="name-field field1">
-            
-            <input type="email" name="email" id="email" placeholder="khanetmoi@gmail.com" required>
-            <textarea id="textarea" cols="30" rows="10" name="message" placeholder="Enter text here" maxlength="500" required></textarea>
-            <button type="submit">See project</button>
-          </div>
-            <div id="error"></div>
-        </form>
-
-    </section>
-
-    <hr class="extended-hr">
-
-    <footer>
-
-        <ul class="f-contact-list">
-            <li><a href=# class="icons"><i class="fa-brands fa-twitter"></i></a></li>
-            <li><a href=# class="icons"><i class="fa-brands fa-github-square"></i></a></li>
-            <li><a href=# class="icons"><i class="fa-brands fa-linkedin"></i></a></li>
-            <li><a href=# class="icons"><i class="fa-brands fa-angellist"></i></a></li>
-        </ul>
-        <h3>khanetmoi@gmail.com</h3>
-    </footer>
-    <script src="script.js"></script>
-    <script src="form.js"></script>
+        </footer>
+        <script src="script.js"></script>
+        <script src="pop_up.js"></script>
+        <script src="formValidation.js"></script>
+    </div>
 </body>
 
 </html>
